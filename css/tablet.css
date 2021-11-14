@@ -1,0 +1,68 @@
+@media screen and (min-width:601px) and (max-width: 820px){
+    
+    body 
+    {
+        max-width: 780px;
+        width: 90%;
+        height: auto;
+        position: relative;
+    
+    }
+
+    nav.container-header-nav 
+    {
+        width: 80%;
+    }
+
+    nav a 
+    {
+        padding: 30px 35px 15px 30px;
+    }
+    /*===========================================main==============================*/
+ /*============================section hebergement===========================*/
+main 
+{
+    padding-left: 15px;
+}
+li 
+{
+    margin-top: 2%;
+}
+ div.hosting-pictures /*conteneur hébergement et populaire*/
+{
+    flex-direction: column;
+    padding: 0;
+}
+.lodging-popular
+{
+    width: 98%;
+    margin: 5% 0% 10% 0%;
+    _border-radius: 2px;
+    _height:300px;
+     height: auto;
+    }
+
+div.lodg-pop
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0 10% 0%;
+
+}
+.lodg-pop-cards {
+    width: 30%;
+    height: auto;
+}
+    .lodging /*section hébergement*/
+
+    {
+        width: 100%;
+        order: 1;
+        background-color:#f2f2f2;
+        padding:0;
+    
+    }
+    
+    
+
+    }/*fin*/
