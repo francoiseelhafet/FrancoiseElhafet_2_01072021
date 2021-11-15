@@ -9,9 +9,9 @@ body
     position: relative;  
 }
 
-header
+nav
 {
-    width: 80%;
+width: 80%;
 }
 
 nav a 
