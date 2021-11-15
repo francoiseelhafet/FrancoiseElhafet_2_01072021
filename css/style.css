@@ -2,9 +2,9 @@
 /*definir quel px pour marge auto*/
 *
 {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
 body 
 {
     font-family: raleway ,sans-serif;
@@ -12,7 +12,6 @@ body
     min-width: 360px;
     max-width: 1200px;
 }
-    
 /*================================= header ================================*/
 
 header 
@@ -48,10 +47,7 @@ nav a
     font-size: 0.9em;
     text-decoration: none;
     width: 50%;
-
-
 }
-
 
 .header-nav-item3
 {
@@ -64,8 +60,6 @@ nav a
 {
     color: #0065fc;
 }
-
-
 /*========================section-titre/recherche===================================*/
 
 /*========================titre================*/
@@ -74,12 +68,11 @@ main
     padding-left: 30px;
 }
 
-
-
 .container-search > h1 :nth-child(1)
 {
     margin-bottom: 5px;
 }
+
 h1
 {
     margin-top: 40px;
@@ -91,8 +84,7 @@ h1
 /*========================================*/ 
 
 p.search
-{
-    
+{ 
     display: flex;
     justify-content: flex-start;
     color: #303030;
@@ -100,6 +92,7 @@ p.search
     font-size: 0.8em; 
 }
 /*========================formulaire================*/
+
 form
 {
     display: flex;
@@ -107,44 +100,29 @@ form
     margin-bottom: 15px;
 }
 
-
 i.fas.fa-map-marker-alt
  {
     display: flex;
     justify-content: center;
     align-items: center;
-    _border-top-left-radius: 1em;
-    _border-bottom-left-radius: 1em;
     width: 50px;
     height: 50px;
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
-    
 }
 
 input.search-field
 {
     color:black;
 }
-
 /*========================bouton de recherche================*/
 
-_input.search-button
-{
-    padding: 0 25px 0 25px;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    border: #f2f2f2 2px solid;
-    background-color: #0065fc;
-    color: white;  
-}
 input.search-field::placeholder
 {
     color:black;
 }
-
-
 /*============================section-filtres===================================================*/
+
 .filters
 {
     display: flex;
@@ -170,12 +148,12 @@ ol
     flex-wrap: wrap;
     padding-left: 20px;
 }
+
 ol:hover
 {
     color: black;
 }
 /*========================éléments listes================*/
-
 
 li
 {
@@ -188,14 +166,13 @@ li
     border:solid 2px #d9d9d9;
     margin-left: 8px;
 }
-li:hover
 
+li:hover
 {
     border-color: white;
     box-shadow: 0px 5px 20px grey;
 }
 /*========================image font-awesome================*/
-
 
 i.fas:not(.fa-map-marker-alt):not(.fa-info):not(.fa-search):not(.fa-euro-sign):not(.fa-star):not(.fa-chart-line)
 /*.fa-money-bill-wave*/
@@ -212,7 +189,6 @@ i.fas:not(.fa-map-marker-alt):not(.fa-info):not(.fa-search):not(.fa-euro-sign):n
     font-size: 1em;
     margin: -2px;
 }
-
 /*========================texte filtre================*/
 
 span.filters-item1
@@ -220,12 +196,14 @@ span.filters-item1
     margin-left: 15px;
 }
 /*========================info ville==================*/ 
+
 div.filters-info
 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 div.f-info-item1
 {
     display: flex;
@@ -236,15 +214,14 @@ div.f-info-item1
     border-radius: 50%;
     border: 2px solid #f2f2f2;
     color:#0065fc;
-    margin-right: 1%;
-    
+    margin-right: 1%; 
 }
+
 .f-city-item2
 {
     font-size: 0.8em;
     color: #606060;
-}
-    
+}  
 /*======================================section-hébergement=========================================*/
 div.hosting-pictures
 {
@@ -253,8 +230,6 @@ div.hosting-pictures
     padding-right: 2%;
     order:2
 }
-
-
 
 h2#hebergement.title-section
 {
@@ -265,19 +240,18 @@ h2#hebergement.title-section
 
 .lodging
 {
-width: 65%;
-height: auto;
-background-color: #f2f2f2;
-border-radius: 1em;
-padding: 0 2% 0 2%;
+    width: 65%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+    padding: 0 2% 0 2%;
 }
 
 .lodging-cards
 {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 40px;
-     
+  margin-bottom: 40px;    
 }
 
 .lodging-card
@@ -289,6 +263,7 @@ padding: 0 2% 0 2%;
     border-radius: 0.6em;
     box-shadow: 0px 5px 5px lightgrey;
 }
+
 a
 {
     width: 100%;
@@ -296,6 +271,7 @@ a
     text-decoration: none;
     color: black;
 }
+
 a img.lodging-pictures
 {
     width: 100%;
@@ -303,9 +279,9 @@ a img.lodging-pictures
     border: solid white 4px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    box-shadow: 0px 5px 20px white;
-    
+    box-shadow: 0px 5px 20px white;  
 }
+
 h3.lodg-card-title
 {
     margin: 0;
@@ -326,27 +302,29 @@ span.lodg-card-price1
     font-weight: bold;
     font-size: 1em;
 }
+
 div.lodg-star
 {
     margin: 5% 0 2% 5%;
     font-size: 0.8em;
 }
+
 i.fas.fa-star
 {
     color: #0065fc;
 }
+
 i.fas.fa-star.card-star
 {
     color:#f2f2f2;
 }
+
 p.lodg-card-more
 {
     font-size: 1em;
     font-weight: bold;
     margin: 0 0 10% 2%;
 }
-
-
 /*======================================section-populaire=========================================*/
 .lodging-popular
 {
@@ -360,12 +338,12 @@ p.lodg-card-more
     margin-left: 25px;
 }
 
-
 div.lodg-pop-title
 {
     display: flex;
     justify-content: space-between;
 }
+
 h2.title-section
 {
     padding: 30px 0 0 30px;
@@ -380,6 +358,7 @@ h2.title-section
     margin: 5% 0 0 10%;
     padding: 20px 0 0 2px;
 }
+
 i.fas.fa-chart-line
 {
     display: flex;
@@ -394,22 +373,23 @@ article.lodg-pop-cards >a
     display: flex;
     justify-content: space-between;
 }
+
 a div.lodg-pop-card-picture
 {
     width: 40%;
     height: 100%;
 }
+
 img.lodg-pop-card-picture1
 {
     width: 100%;
     height:165px;
     object-fit: cover;
-    _border:4px solid white;
     border-top-left-radius: 0.6em;
     border-bottom-left-radius: 0.6em;
     padding: 5px;
-    _box-shadow: 0px 5px 20px white;
 }
+
 div.lodg-pop-card-info
 {   
     display: flex;
@@ -418,51 +398,48 @@ div.lodg-pop-card-info
     width: 60%;
     margin: 3% 0 0 5%;
 }
+
 div.pop-star
 {
     margin-bottom: 10%;
 }
+
 h3 .lodg-pop-card-title
 {
     font-weight: bold;
     font-size: 0.6em;
     margin-left:5%;
 }
+
 div.lodg-pop
 {
-    _display: flex;
-    _flex-direction: column;
     justify-content: space-between;
     width:100%;
     height:80%;
     margin: 5% 0 10% 5%;
-
 }
 
 .lodg-pop-cards
 {
-    _width: 80%;
-    _height:30%;
     margin-bottom: 5%;
     border-radius: 0.6em;
     background-color: white;
     box-shadow: 0px 5px 5px lightgrey;
 }
-
-
 /*==================================section activité=========================*/
+
 .activity-pictures
 {
     width: 100%;
     height: auto;
     margin-top: 2%;
 }
+
 h2#activite.title
 {
-font-size: 1.2em;
-margin-top: 5%;
+    font-size: 1.2em;
+    margin-top: 5%;
 }
-
 
 .container-activity-cards
 {
@@ -493,6 +470,7 @@ margin-top: 5%;
     border-top-right-radius: 0.6em;
     object-fit: cover;
 }
+
 .activity-box
 {
     display: flex;
@@ -529,15 +507,16 @@ img.activity-card-picture1
     box-shadow: 0px 5px 5px lightgrey;
     border-radius: 0.6em ;
 }
+
 img.activity-card-picture2
 {
     width: 100%;
     height: 65%;
     object-fit: cover ;
     border-top-left-radius: 0.6em;
-    border-top-right-radius: 0.6em;
-    
+    border-top-right-radius: 0.6em;   
 }
+
 .activity-card3
 {
     width: 100%;
@@ -545,6 +524,7 @@ img.activity-card-picture2
     box-shadow: 0px 5px 5px lightgrey;
     border-radius: 0.6em ;
 }
+
 img.activity-card-picture3
 {
     width: 100%;
@@ -552,9 +532,8 @@ img.activity-card-picture3
     object-fit: cover;
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;
-    
-
 }
+
 .activity-card4
 {
     width: 100%;
@@ -562,24 +541,28 @@ img.activity-card-picture3
     box-shadow: 0px 5px 5px lightgrey;
     border-radius: 0.6em ;
 }
+
 img.activity-card-picture4
 {
     width: 100%;
     height: 72%;
     object-fit: cover;
     border-top-left-radius: 0.6em;
-    border-top-right-radius: 0.6em;
-    
+    border-top-right-radius: 0.6em; 
 }
+
 h3
 {
-font-size: 0.8em;
-margin: 5% 0 0 5%;
+    font-size: 0.8em;
+    margin: 5% 0 0 5%;
 }
+
 p
 {
-font-size: 0.8em;
+    font-size: 0.8em;
 }
+/*==================================footer=========================*/
+
 footer
 {
     display: flex;
@@ -593,441 +576,19 @@ footer
     margin: 3% 5% 5% 5%;
     width: 33%;
 }
+
 h2.footer-box-title
 {
-    _margin: 0;
     font-size: 1em;
 }
+
 a.footer-box-info
 {
-    _margin: 0;
     font-size: 0.9em;
     padding: 0;
     width: 100%;
 }
-/*
 
 
-.container-activity
-{
-    width: 20%;
-    margin-right: 5% ;
-}
-
-img.activity-card-picture1 
-{
-  max-width: 100%;
-    
-}
-
-
-
-_a img.activity-pictures 
-{
-    width: 100%;
-}
-
-
-div.activity_title-card
-{
-    width: 25%;
-    height: 450px;
-}
-
-/*
-.hosting-pictures
-{
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 5%;
-    _justify-content:flex-start;
-
-}
-
-.lodging
-{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 60%;
-    height: 450px;
-    background-color: #f2f2f2;
-    border-radius: 5%;
-}
-
-h2.lodging-item
-{
-    display: flex;
-    justify-content: flex-start;
-    margin: 5% 0 0 5%;
-    width: 100%;
-}
-.lodging-item1
-{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 80%;
-    margin: 5% 5% 0 5%;
-}
-div.card 
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.lodging-item1
-{
-    width: 30%;
-    _width: 400px;
-    margin: 0 px auto;
-    background-color: white;
-    _height: 35%;
-    box-shadow: 0px 5px 20px #999;
-    border-radius: 5%;
-}
-article.host-item1 a
-{
-    color:#333333;
-    text-decoration: none;
-}
-
-.article :hover .a
-{
-_width: 160%;
-filter: grayscale(0);
-}
-.card-picture
-{
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-}
-.card-picture img
-{
-    width: 150%;
-    _position: absolute;
-    top: 50%;
-    left:50%;
-    _transform: translate(-50%, 50%);
-    _filter: grayscale(1);
-    _transition-property: filters width ;
-    _transition-duration: .3s;
-    _transition-timing-function: ease;
-
-}
-img 
-{
-    _width: 100%;
-    _height: 90px;
-    _border-radius: 0.6em;
-}
-
-article.host-item2
-{
-    width: 30%;
-    height: 35%;
-    background-color: white;
-    border-radius: 5%;
-}
-
-article.host-item3
-{
-    width: 30%;
-    height: 35%;
-    background-color: white;
-    border-radius: 5%;
-}
-
-article.host-item4
-{
-    width: 30%;
-    height: 35%;
-    background-color: white;
-    border-radius: 5%;
-}
-
-article.host-item5
-{
-    width: 30%;
-    height: 35%;
-    background-color: white;
-    border-radius: 5%;
-}
-
-article.host-item6
-{
-    width: 30%;
-    height: 35%;
-    background-color: white;
-    border-radius: 5%;
-}*/
-/*==================================section populaire=========================*/
-
-
-
-
-
-
-.lodg-item2
-{
-    width: 80%;
-    height: 30%;
-    border-radius: 8%;
-    background-color: white;
-
-}
-
-.lodg-item3
-{
-    width: 80%;
-    height:30%;
-    border-radius: 8%;
-    background-color: white;
-
-}
-/*========================================section acivité=============================*/
-
-
-/*
-
-_.activity-title-card
-{
-    height: 310px;
-    width: 25%;
-    _margin: 3% 0 8% 3%;
-    border-radius: 8%;
-    background-color: #f2f2f2;
-}
-
-
-
-
-.activity-pictures
-{
-display: flex;
-}
-div.activity-pictures1
-{
-    display:flex;
-    background-color: white;
-}
-h2.activity-items
-{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 5%;
-    width: 100%;
-    height: 50px;
-}
-
-
-
-
-
-div.activity-item1
-{
-    height: 310px;
-    width: 25%;
-    border-radius: 8%;
-
-}
-article.act-item2
-{
-    height: 150px;
-    width: 100%;
-    border-radius: 8%;
-    margin: 0 0 10% 12%;
-    background-color: #f2f2f2;
-
-}
-
-article.act-item3
-{
-    height: 110px;
-    width: 100%;
-    border-radius: 8%;
-    margin: 25% 0 0 12%;
-    background-color: #f2f2f2;
-
-}
-
-article.act-item1
-{
-    height: 310px;
-    width: 25%;
-    border-radius: 8%;
-    background-color: #f2f2f2;
-    margin-left: 5%;
-
-}
-
-div.activity-item2
-{
-    height: 350px;
-    width: 25%;
-    border-radius: 8%;
-}
-
-article.act-item5
-{
-    height: 110px;
-    width: 100%;
-    border-radius: 8%;
-    margin: 0 0 25% 10%;
-    background-color: #f2f2f2;
-
-
-}
-
-article.act-item6
-{
-    height: 150px;
-    width: 100%;
-    border-radius: 8%;
-    margin: 0% 0 10% 12%;
-    background-color: #f2f2f2;
-
-
-}
-
-/*========================================pied de page=============================*/
-
-
-
-
-
-/*i.fas.fa-info
-{
-    _display: flex;
-    _justify-content: center;
-    _align-items: center;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px #f2f2f2 solid;
-    color: #0065fc;
-    
-}
-
-
-
-
-
-/*i.fas-fa-money-bill-wave
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50% ;
-    border: 2px solid none;
-    background: #DEEBFF;
-    color:#0065FC
-    
-
-}
-
-i.fas.fa-child
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50% ;
-    border: 2px solid none;
-    background: #DEEBFF;
-    color:#0065FC
-
-}
-
-i.fas.fa-heart
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50% ;
-    border: 2px solid none;
-    background: #DEEBFF;
-    color:#0065FC
-
-}
-
-i.fas.fa-dog
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50% ;
-    border: 2px solid none;
-    background: #DEEBFF;
-    color:#0065FC
-}
-
-i.fas.fa-info
-{
-    _display: flex;
-    _justify-content: center;
-    _align-items: center;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px #f2f2f2 solid;
-    color: #0065fc;
-    
-}
-/*================================= section hébergement================================*/
-
-/*footer 
-{
-    background-color: #f2f2f2 ; 
-    justify-content:space-around;
-    align-items: stretch;
-    display: flex;
-    height: 100%;
-    flex-wrap:wrap;
-    margin:auto;
-    background-color: flex 3;
-    min-width: auto;
-
-}
-div 
-{
-    background-color: #f2f2f2;
-    width: 50%;
-}
-h2
-{
-    font-size: 1em;
-    width: 50%;
-    background-color: #f2f2f2;
-    min-width: auto;
-}
-h1
-{
-    font-size: 1em;
-}
-
-a
-{
-    text-decoration: solid;
-    color:teal
-}
-img
-{
-    width: 8%;
-}
-.p3
-{
-    background-color: white;
-}
-*/
 
 

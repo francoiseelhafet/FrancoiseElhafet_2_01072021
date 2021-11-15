@@ -29,11 +29,9 @@
       color:black;
   }
   
-
   a.header-nav-item1
   {
     border-bottom: #f2f2f2 2px solid;
-
   }
 
   a.header-nav-item1:hover 
@@ -67,13 +65,15 @@ main
 
 h1 
 {
-flex-direction: column;
-width: 100%;
+    flex-direction: column;
+    width: 100%;
 }
+
 span.head-title-item
 {
     display: none;
 }
+
 i.fas.fa-map-marker-alt
 {
     border-top-left-radius: 0.6em;
@@ -88,13 +88,11 @@ input.search-field
     border-bottom: 2px solid #f2f2f2;
     border-left: 0;
     border-right: 0;
-    _border:2px 0 2px 0 solid #f2f2f2;
 }
+
 input.search-button
 {
-    
     display: none;
-
 }
 
 input.fas.fa-search
@@ -105,6 +103,7 @@ input.fas.fa-search
     background-color: #0065fc;
     color: white;
 }
+
 i.fas.fa-search
 {
     display: flex;
@@ -116,7 +115,6 @@ i.fas.fa-search
     background-color: #0065fc;
     color: white;
 }
-
 /*==================================section filtres===========================*/
 .container-filters
 {
@@ -149,8 +147,6 @@ div.filters-items2
 {
 flex-direction: column;
 }
-
-
 /*==================================section hébergement et populaire===========================*/
 
 /*========================populaire=======================*/
@@ -175,14 +171,11 @@ div.lodg-pop /*box carte */
     margin: 0;
 }
 
-
 .lodg-pop-cards /*carte */
 {
     width: 90%;
     height: 130px;
     margin: 0% 5% 5% 5%;
-   
-
 }
 
 a div.lodg-pop-card-picture /*box photo*/
@@ -200,27 +193,20 @@ img.lodg-pop-card-picture1
 p.lodg-pop-card-price /*prix carte*/
 {
 font-size: 0.8em;
-_padding: 0 10% 0 10%;
 }
-_.pop-star
-{
-    margin-top: 15px;
-}
+
 i.fas.fa-star /*étoiles*/
 {
     padding-top: 15px;
 }
-
 /*===========================hébergement============================*/
 
 .lodging /*section hébergement*/
-
 {
     width: 100%;
     order: 1;
     background-color: white;
     padding:0;
-
 }
 
 h2#hebergement.title-section
@@ -234,27 +220,27 @@ h2#hebergement.title-section
     flex-direction: column;
     width: 100%;
 }
+
 .lodging-card
 {
-    _width: 90%;
-    _padding-bottom: 5%;
-    _margin: 0 5% 5% 5%;
     box-shadow: 0 5px 5px 5px #f2f2f2;
     width: 90%;
-    _height: 260px;
     height: 220px;
     margin: 0 5% 5% 5%;
     padding-bottom: 10%;
 }
+
 img.lodging-pictures
 {
     height:125px;
     object-fit: cover;
 }
+
 p.lodg-card-price
 {
     margin-top: 1%;
 }
+
 div.lodg-star
 {
     margin:0 0 0 5%;
@@ -267,6 +253,7 @@ div.lodg-star
     height: auto;
     margin-top: 2%;
 }
+
 h2#activite.title
 {
     margin: 5% 0 5% 2%;
@@ -304,13 +291,13 @@ h2#activite.title
 }
 
 .activity-card1 
-
 {
     width: 90%;
     height: 200px;
     margin: 0 5% 5% 5%;
 
 }
+
 .activity-card2
 { 
     width: 90%;
@@ -318,6 +305,7 @@ h2#activite.title
     margin: 0 5% 5% 5%;
 
 }
+
 .activity-card3
 { 
     width: 90%;
@@ -325,6 +313,7 @@ h2#activite.title
     margin: 0 5% 5% 5%;
 
 }
+
 .activity-card4
 { 
     width: 90%;
@@ -332,7 +321,6 @@ h2#activite.title
     margin: 0 5% 5% 5%;
 
 }
-
 /*================================footer=====================================*/
 footer 
 {
@@ -340,6 +328,7 @@ footer
     width: 100%;
     margin-top: 10%;
 }
+
 .footer-box 
 {
     margin: 5% 0% 3% 10%;
@@ -348,15 +337,6 @@ footer
 
 
 
-
-
-_article.lodg-pop-cards >a 
-{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
 
 
 
