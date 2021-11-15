@@ -59,9 +59,9 @@ nav a
 {
     color: #0065fc;
 }
-/*========================section-titre/recherche===================================*/
+/*========================main===================================*/
 
-/*========================titre================*/
+/*========================section titre================*/
 main
 {
     padding-left: 30px;
@@ -139,6 +139,7 @@ h2.filters-items
 }
 /*========================liste filtres================*/
 
+
 ol
 {
     display: flex;
@@ -153,6 +154,7 @@ ol:hover
     color: black;
 }
 /*========================éléments listes================*/
+
 li
 {
     display: flex;
@@ -193,12 +195,14 @@ span.filters-item1
     margin-left: 15px;
 }
 /*========================info ville==================*/ 
+
 div.filters-info
 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 div.f-info-item1
 {
     display: flex;
