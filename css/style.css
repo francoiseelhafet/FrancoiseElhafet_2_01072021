@@ -10,7 +10,7 @@ body
     font-family: raleway ,sans-serif;
     margin: 0 auto;
     min-width: 360px;
-    max-width: 1200px;
+    max-width: 1440px;
 }  
 /*================================= header ================================*/
 
@@ -75,7 +75,7 @@ main
 
 h1
 {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 5px;
     font-size: 1.1em;
     font-weight:bold;
@@ -307,6 +307,7 @@ div.lodg-star
 {
     margin: 5% 0 2% 5%;
     font-size: 0.8em;
+    margin-bottom: 5%;
 }
 
 i.fas.fa-star
@@ -402,7 +403,7 @@ div.lodg-pop-card-info
 
 div.pop-star
 {
-    margin-bottom: 10%;
+    margin: 5% 0 10% 5%;
 }
 
 h3 .lodg-pop-card-title
@@ -427,6 +428,17 @@ div.lodg-pop
     background-color: white;
     box-shadow: 0px 5px 5px lightgrey;
 }
+.lodg-pop-card-title
+{
+    font-size: 0.8em;
+    margin: 5% 0 0 5%;
+}
+.lodg-pop-card-price
+{
+    font-size: 0.8em;
+    margin: 5% 0 0 5%;
+}
+
 /*==================================section activité=========================*/
 
 .activity-pictures
@@ -552,16 +564,17 @@ img.activity-card-picture4
     border-top-right-radius: 0.6em; 
 }
 
-h3
+_h3
 {
     font-size: 0.8em;
     margin: 5% 0 0 5%;
 }
 
-p
+_p
 {
     font-size: 0.8em;
 }
+
 /*========================================footer=============================*/
 
 footer
