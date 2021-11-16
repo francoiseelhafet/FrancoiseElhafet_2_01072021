@@ -428,17 +428,18 @@ div.lodg-pop
     background-color: white;
     box-shadow: 0px 5px 5px lightgrey;
 }
+
 .lodg-pop-card-title
 {
     font-size: 0.8em;
     margin: 5% 0 0 5%;
 }
+
 .lodg-pop-card-price
 {
     font-size: 0.8em;
     margin: 5% 0 0 5%;
 }
-
 /*==================================section activité=========================*/
 
 .activity-pictures
@@ -524,7 +525,7 @@ img.activity-card-picture1
 img.activity-card-picture2
 {
     width: 100%;
-    height: 65%;
+    height: 60%;
     object-fit: cover ;
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;   
