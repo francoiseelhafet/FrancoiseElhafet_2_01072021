@@ -69,11 +69,6 @@ flex-direction: column;
 width: 100%;
 }
 
-span.head-title-item
-{
-    display: none;
-}
-
 i.fas.fa-map-marker-alt
 {
     border-top-left-radius: 0.6em;
