@@ -9,7 +9,7 @@ body
 {
     font-family: raleway ,sans-serif;
     margin: 0 auto;
-    min-width: 360px;
+    min-width: 320px;
     max-width: 1440px;
 }  
 /*================================= header ================================*/
@@ -429,7 +429,7 @@ div.lodg-pop
     box-shadow: 0px 5px 5px lightgrey;
 }
 
-.lodg-pop-card-title
+.lodg-pop-card-title 
 {
     font-size: 0.8em;
     margin: 5% 0 0 5%;
